@@ -1,0 +1,95 @@
+#wrapper{
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bgheader{
+    background:url(bgimage.jpg);
+    width: 1500px;
+    height:600px;
+}
+
+#header{
+    display:flex;
+    justify-content: left;
+    padding-top: 10px;
+    
+}
+#header >li {
+    list-style-type: none;
+    padding :15px;
+}
+#header>li>a{
+     text-decoration: none;
+     color: white; 
+     transition: all 500ms;
+   
+}
+#header>li > a:hover{
+    border-bottom: 3px white solid;
+    padding:10px;
+    transition: all 500ms;
+    color
+}
+#active:nth-child(1){
+    border-bottom: 3px white solid;
+    padding: 5px;
+    color: white;
+}
+#logo{
+    background: url(konto-removebg-preview.png);
+    width:150px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    margin-top:-20px;
+     
+}
+#pinggiran{
+    background:url(img1.png);
+    width: 500px;
+    height: 500px;
+    margin-top: -270px;
+    
+    position: absolute;
+
+}
+#artikel{
+    color:white;
+    font-family:monospace;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    
+    
+}
+#atas{
+    width:150px ;
+    height:30px ;
+    box-shadow: white 0px 1px 5px ,white 0px 0px 0px 3px;
+    margin-left: 670px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#atas>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#judul{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 70px;
+
+}
+    
+    
+
+
+    
+    
+

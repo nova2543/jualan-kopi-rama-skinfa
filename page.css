@@ -1,0 +1,110 @@
+#wrapper{
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bgheader{
+    background:url(bgimage.jpg) ;
+    width: 1500px;
+    height:600px;
+}
+
+#header{
+    display:flex;
+    justify-content: left;
+    padding-top: 10px;
+    
+}
+#header >li {
+    list-style-type: none;
+    padding :15px;
+}
+#header>li>a{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.349);
+     transition: all 500ms;
+     
+
+}
+#header>li > a:hover{
+    border-bottom: 3px white solid;
+    padding:10px;
+    transition: all 500ms;
+    color: white;
+}
+#active:nth-child(1){
+    border-bottom: 3px white solid;
+    padding: 5px;
+    transition: all 500ms;
+    color: white;
+}
+#logo{
+    background: url(hitamlg-removebg-preview.png);
+    width:150px;
+    height:91px;
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    margin-top:-0px;
+}
+#pinggiran{
+    background:url(nice.jpg);
+    width: 1053px;
+    height: 550px;
+    margin-top: -90px;
+    margin-left: -550px;
+    margin-right: 100px;
+    border-radius: 300px;
+    shape-outside: circle(47%);
+    float: left;
+    position: ;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px ,rgba(14,30,37,0.32) 0px 2px 16px 0px;
+    
+    
+
+}
+.artbox{
+background: linear-gradient(to right,rgba(160, 104, 0, 0.411),rgba(0, 0, 0, 0.096));
+width: 887px;
+height: 370px;
+padding: 10px;
+margin-left: 400px;
+}
+#artikel{
+    color: rgb(255, 253, 253);
+    font-family:'poppins', arial;
+    font-size: 20px;
+    margin-top:15px;
+    line-height: 28px; 
+}
+#atas{
+    width:150px ;
+    height:30px ;
+    box-shadow: white 0px 1px 5px ,white 0px 0px 0px 3px;
+    margin-left: 670px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#atas>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#judul{
+    
+    font-size: 50px;
+    color: rgb(61, 37, 2);
+    margin-top: 10px;
+    
+    
+  
+}
+    
+    
+
+
+    
+    
+

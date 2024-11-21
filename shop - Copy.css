@@ -1,0 +1,295 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#wrapper{
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bgheader{
+    background:url(bgimage.jpg);
+    width: 1500px;
+    height:600px;
+}
+
+#header{
+    display:flex;
+    justify-content: left;
+    padding-top: 10px;
+    
+}
+#header >li {
+    list-style-type: none;
+    padding :15px;
+}
+#header>li>a{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.342); 
+     transition: all 500ms;
+     
+}
+#header>li > a:hover{
+    border-bottom: 3px white solid;
+    padding:10px;
+    transition: all 500ms;
+    color: white;
+}
+#active:nth-child(1){
+    border-bottom: 3px white solid;
+    padding: 5px;
+    transition: all 500ms;
+    color: white;
+}
+#logo{
+    background: url(konto-removebg-preview.png);
+    width:150px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    margin-top:-20px;
+     
+}
+#text1{
+ margin-left: 590px;
+ margin-bottom: 20px;
+ margin-top: -50px;
+ font-size: 25px;
+}
+#text2{
+    margin-left: 550px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    font-size: 50px;
+   }
+#box-slider{
+    width: 1100px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    overflow-x: auto ;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x mandatory;
+    position:relative;
+    margin: auto;
+    margin-left: 80px;
+    
+}
+#box-slider::-webkit-scrollbar{
+    display: none;
+    
+}
+    
+#box1 {
+    width: 250px;
+    height:150px; ;
+    background: white;
+    border-radius: 10px;
+    margin-left: px;
+    display: flex;
+    text-align: right;
+
+}
+text{
+    color: rgb(63, 63, 63);
+    margin-left: 80px;
+    margin-top: 60px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    position: absolute;
+}
+text2{
+    color: rgb(63, 63, 63);
+    margin-left: 90px;
+    margin-top: 60px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    position: absolute;
+}
+#boximage1{
+    width: 90px;
+    height:90px ;
+    background:url(Americano.png);
+    margin-left: 85px;
+    margin-top:  -15px;
+    position: absolute;
+    
+  
+}
+.button{
+  font-size: 15px;
+  padding: 2px;  
+  margin-top: 8px;
+  margin-right:-3px;
+  position: relative;  
+  border-radius: 20px; 
+  border-color: rgb(68, 34, 3);
+  background-color: rgb(112, 56, 3);
+  color: rgb(238, 238, 238);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
+.bi1{
+    margin-top:85px;
+    margin-left:83px;
+    font-size: 14px;
+    position: absolute;    
+}
+#box2{
+    width: 250px;
+    height:150px; ;
+    background: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    display: flex;
+    margin-top:15px;
+
+
+}
+#boximage2{
+    width: 80px;
+    height:84px ;
+    background:url(Espresso.png);
+    margin-left:  85px;
+    margin-top: -15px;
+    position: absolute;
+}
+#boximage3{
+    width: 90px;
+    height:90px ;
+    background:url(Long\ Black.png);
+    margin-left:  85px;
+    margin-top: -15px;
+    position: absolute;
+}
+#boximage4{
+    width: 90px;
+    height:90px ;
+    background:url(Cappuccino.png);
+    margin-left:  85px;
+    margin-top: -15px;
+    position: absolute;
+}
+#boximage5{
+    width: 90px;
+    height:90px ;
+    background:url(Affogato-removebg-preview.png);
+    margin-left:  85px;
+    margin-top: -15px;
+    position: absolute;
+}
+#boximage6{
+    width: 90px;
+    height:90px ;
+    background:url(Machiato.png);
+    margin-left:  85px;
+    margin-top: -15px;
+    position: absolute;
+}
+#boximage7{
+    width: 90px;
+    height:90px ;
+    background:url(Frappe.png);
+    margin-left:  85px;
+    margin-top: -15px;
+    position: absolute;
+}
+#boximage8{
+    width: 70px;
+    height:82px ;
+    background:url(cold_brew_1-removebg-preview.png);
+    margin-left:  85px;
+    margin-top: -30px;
+    position: absolute;
+}
+
+#bawah {
+    margin-left: 38%;
+    margin-top: 20px;
+   
+ 
+}
+ 
+#opsi1{
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 30px;
+    display:flex;
+     
+   
+    
+}
+#opsi2{
+    margin-top:20px;
+    margin-left: 7%;
+    font-size: 30px;
+    
+    
+}
+#opsi3{
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 30px;
+    
+    
+}
+#contact{
+    width: 200px;
+    height:40px ;
+    background:rgb(49, 21, 0);
+    margin-left: 19%;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+}
+.bi::before {
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 10px;
+
+
+}
+
+
+text1{
+    margin-top: 8px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+#contact2{
+    width: 200px;
+    height:40px ;
+    background:rgb(49, 21, 0);
+    margin-left: 20%;
+    margin-top: 2px;
+    border-radius: 20px;
+    display: flex;
+    position:absolute;
+}
+#contact3{
+    width: 200px;
+    height:40px ;
+    background:rgb(49, 21, 0);
+    margin-left: 130%;
+    margin-top: px;
+    border-radius: 20px;
+    display: flex;
+    position:absolute;
+}
+
+
+
+
+
+    
+
+
+
+    
+    
+
+
+    
+    
+

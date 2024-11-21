@@ -1,0 +1,45 @@
+.wrapper{
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bgheader{
+    background:url(bgimage.jpg);
+    width: 1500px;
+    height:600px;
+}
+.loginbox{
+    width:700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left:300px;
+}
+text{
+    margin-top:50px;
+    font-size: 40px;
+}
+.user{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#user{
+    height: 40px;
+}
+.pw{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#pw{
+    height: 40px;
+}
+.button{
+    margin-top:-30px;
+    width: 100px;
+    height: 40px;
+    border-radius:20px;
+}
